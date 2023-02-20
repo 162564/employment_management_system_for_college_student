@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: longwei2001
+    url: jdbc:mysql://localhost:3306/sosg?serverTimezone=UTC&rewriteBatchedStatements=true
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: per.sosg.bean

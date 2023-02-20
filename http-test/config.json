@@ -1,0 +1,34 @@
+{
+   "host" : "http://localhost:8080/",
+   "requests" : [
+      {
+         "desc" : "",
+         "headers" : [
+            
+         ],
+         "method" : "POST",
+         "params" : [
+            
+         ],
+         "path" : "student/insert?sid=10001&sname=留心",
+         "result" : "{\"timestamp\":\"2023-02-20T13:50:58.357+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/student/insert\"}",
+         "time" : 5
+      },
+      {
+         "desc" : "",
+         "headers" : [
+            
+         ],
+         "method" : "GET",
+         "params" : [
+            
+         ],
+         "path" : "student/find?sid=10001",
+         "result" : "{\"sid\":10001,\"sname\":\"刘鑫\",\"telephone\":\"19958911104\",\"school\":\"湖南工程学院\",\"company\":null,\"state\":false,\"information\":null}",
+         "time" : 469
+      }
+   ],
+   "settings" : [
+      
+   ]
+}
