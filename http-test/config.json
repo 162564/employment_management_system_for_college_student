@@ -26,6 +26,32 @@
          "path" : "student/find?sid=10001",
          "result" : "{\"sid\":10001,\"sname\":\"刘鑫\",\"telephone\":\"19958911104\",\"school\":\"湖南工程学院\",\"company\":null,\"state\":false,\"information\":null}",
          "time" : 469
+      },
+      {
+         "desc" : "",
+         "headers" : [
+            
+         ],
+         "method" : "POST",
+         "params" : [
+            
+         ],
+         "path" : "/student/insert?sid=10001&sname=asdad",
+         "result" : "{\"timestamp\":\"2023-02-20T15:54:32.732+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"//student/insert\"}",
+         "time" : 178
+      },
+      {
+         "desc" : "",
+         "headers" : [
+            
+         ],
+         "method" : "POST",
+         "params" : [
+            
+         ],
+         "path" : "student/insert?sid=10001&sname=asdad",
+         "result" : "{\"timestamp\":\"2023-02-20T16:00:27.959+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"path\":\"/student/insert\"}",
+         "time" : 480
       }
    ],
    "settings" : [

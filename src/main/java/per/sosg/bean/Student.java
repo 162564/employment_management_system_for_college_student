@@ -11,6 +11,7 @@ public class Student {
     private String telephone;
     private String school;
     private String company;
+    private String address;
     private boolean state;
     private File information;
 }
